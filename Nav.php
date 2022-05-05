@@ -40,7 +40,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-md-3 " style=" padding-top:18px;">
+                <div class="col-md-3 d-none" style=" padding-top:18px;">
                     <button class='button button-accept'> Add to Cart<img alt="logo" src="./Assets/icons8-cart-64.png" height="20px" /></button>
                     <button class='button button-accept'> Wishlists<img alt="logo" src="./Assets/icons8-love-50.png" height="20px" /></button>
 
