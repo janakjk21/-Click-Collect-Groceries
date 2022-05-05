@@ -16,7 +16,7 @@
 
 <body>
     <div class="row">
-
+        <div> </div>
 
         <div class="col-md-4">
             <div class="wrapper">
@@ -28,8 +28,7 @@
                     </div>
                     <div class="product-details">
                         <span class="product-catagory">Women,bag</span>
-                        <h4><a href="">Women leather bag</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
+                        <h4><a href="">Women leather bag</a></h4>sfsfasdfs fds nostrum!</p>
                         <div class="product-bottom-details">
                             <div class="product-price"><small>$96.00</small>$230.99</div>
                             <div class="product-links">

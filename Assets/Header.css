@@ -59,8 +59,14 @@ body {
 }
 
 @media (min-width: 600px) {
-	.button span {
-		display: initial;
+	.button {
+		visibility: "hidden";
+	}
+	.button.button-accept {
+		visibility: "hidden";
+	}
+	.button.button-accept:hover {
+		visibility: "hidden";
 	}
 }
 
@@ -121,6 +127,13 @@ body {
 	}
 	.header-logo .logo {
 		display: inline-block;
+	}
+}
+
+@media (max-width: 767px) {
+	header-search form .input-select {
+		margin-right: 0px;
+		border-radius: 40px 0px 0px 40px;
 	}
 }
 #navigation {
