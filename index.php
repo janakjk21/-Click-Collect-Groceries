@@ -13,7 +13,7 @@
         <div> <?php include 'Nav.php'; ?></div>
         <div style="margin-left:10%;margin-top:3%;color:#FF0000;font-weight:900">
             <h1 style=" text-transform: uppercase;
-    font-weight: 900;"> Hot Products atra ho </h1>
+    font-weight: 900;"> Hot Products </h1>
         </div>
         <div style=" margin-bottom: 200px;">
             <?php include 'Caresole.php'; ?>
