@@ -44,7 +44,10 @@
                     
                     <img alt="Add to Cart" src="./Assets/icons8-shopping-trolley-64.png" height="35px">
                     <h4> Add to Cart </h4>
-                    <img alt="logo" src="./Assets/icons8-love-24.png" height="20px" />
+                    <img alt="My Wishlist" src="./Assets/icons8-love-24.png" height="35px">
+                    <h4> My Wishlist </h4>
+                    <img alt="User" src="./Assets/icons8-user-64.png" height="35px">
+                    <h4>  </h4>
                 </div>
             </div>
         </div>
