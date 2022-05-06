@@ -100,8 +100,8 @@ body {
 
 .input-select {
 	padding: 0px 15px;
-	background: #00d188;
-	border: 1px solid #e4e7ed;
+	/*background: #00d188;*/
+	border: 1px solid #00d188;
 	height: 40px;
 }
 .input {
