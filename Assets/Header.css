@@ -58,7 +58,7 @@ body {
 	transition: all ease 0.5s;
 }
 
-@media (min-width: 600px) {
+/*@media (min-width: 600px) {
 	.button {
 		visibility: "hidden";
 	}
@@ -68,7 +68,7 @@ body {
 	.button.button-accept:hover {
 		visibility: "hidden";
 	}
-}
+}*/
 
 .header-search {
 	padding: 15px 0px;
@@ -91,7 +91,7 @@ body {
 .header-search form .search-btn {
 	height: 40px;
 	width: 100px;
-	background: #00d188;
+	background: red;
 	color: #fff;
 	font-weight: 700;
 	border: none;
@@ -100,16 +100,21 @@ body {
 
 .input-select {
 	padding: 0px 15px;
-	background: #00d188;
-	border: 1px solid #e4e7ed;
+	border-left: 2px solid #FF0000;
+	border-top: 2px solid #FF0000;
+	border-bottom: 2px solid #FF0000;
 	height: 40px;
 }
+
 .input {
 	height: 40px;
 	padding: 0px 15px;
-	border: 1px solid #e4e7ed;
+	border-right: 2px solid #FF0000;
+	border-top: 2px solid #FF0000;
+	border-bottom: 2px solid #FF0000;
+	border-left: 0.1px solid #777;
 	background-color: #fff;
-	width: 100%;
+	width: 200%;
 	/* border-radius: 10px; */
 }
 .header-logo {

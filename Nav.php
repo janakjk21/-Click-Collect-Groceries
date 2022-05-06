@@ -35,18 +35,19 @@
                                 <option value="1">Category 01</option>
                                 <option value="1">Category 02</option>
                             </select>
-                            <input class="input" placeholder="Search here" />
+                            <input class="input" placeholder="What are you looking for..." />
                             <button class="search-btn">Search</button>
                         </form>
                     </div>
                 </div>
-                <div class="col-md-3 d-none" style=" padding-top:18px;">
-                    <button class='button button-accept'> Add to Cart<img alt="logo" src="./Assets/icons8-cart-64.png" height="20px" /></button>
-                    <button class='button button-accept'> Wishlists<img alt="logo" src="./Assets/icons8-love-50.png" height="20px" /></button>
-
+                <div class="col-md-2" style=" padding-top:18px;">
+                    
+                    <img alt="Add to Cart" src="./Assets/icons8-shopping-trolley-64.png" height="35px">
+                    <h4> Add to Cart </h4>
+                    <img alt="logo" src="./Assets/icons8-love-24.png" height="20px" />
                 </div>
-
             </div>
+        </div>
 
 
 
