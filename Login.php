@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div> <?php include 'Nav.php'; ?></div>
+
     <div class="container" style="padding-left:10%">
         <div class="container-wrapper">
 
@@ -46,9 +46,7 @@
         </div>
 
     </div>
-    <div>
-        <?php include 'Footer.php'; ?>
-    </div>
+
 </body>
 
 </html>
