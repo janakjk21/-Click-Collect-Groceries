@@ -5,13 +5,15 @@
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link href="./bootstrap.min.css" rel="stylesheet" />
 	<title>Document</title>
-	<link href="./Cart.css" rel="stylesheet" />
+	<link href="./bootstrap.min.css" rel="stylesheet" />
+
+	<link href="./Wishlist.css" rel="stylesheet" />
 </head>
 
 <body>
-	<div> <?php include './nav3.php'; ?></div>
+	<div style="margin: 20px;"><?php include './nav3.php'; ?></div>
+
 
 	<div class="page-section section mb-50">
 		<div class="container">
@@ -20,7 +22,7 @@
 					<form action="#">
 						<!--=======  cart table  =======-->
 
-						<div class="cart-table table-responsive mb-40">
+						<div class="cart-table table-responsive">
 							<table class="table">
 								<thead>
 									<tr>
@@ -111,89 +113,11 @@
 
 						<!--=======  End of cart table  =======-->
 					</form>
-
-					<div class="row">
-						<div class="col-lg-6 col-12">
-							<!--=======  Calculate Shipping  =======-->
-
-							<div class="calculate-shipping">
-								<h4>Calculate Shipping</h4>
-								<form action="#">
-									<div class="row">
-										<div class="col-md-6 col-12 mb-25">
-											<select class="nice-select">
-												<option>Bangladesh</option>
-												<option>China</option>
-												<option>country</option>
-												<option>India</option>
-												<option>Japan</option>
-											</select>
-										</div>
-										<div class="col-md-6 col-12 mb-25">
-											<select class="nice-select">
-												<option>Dhaka</option>
-												<option>Barisal</option>
-												<option>Khulna</option>
-												<option>Comilla</option>
-												<option>Chittagong</option>
-											</select>
-										</div>
-										<div class="col-md-6 col-12 mb-25">
-											<input type="text" placeholder="Postcode / Zip" />
-										</div>
-										<div class="col-md-6 col-12 mb-25">
-											<input type="submit" value="Estimate" />
-										</div>
-									</div>
-								</form>
-							</div>
-
-							<!--=======  End of Calculate Shipping  =======-->
-
-							<!--=======  Discount Coupon  =======-->
-
-							<div class="discount-coupon">
-								<h4>Discount Coupon Code</h4>
-								<form action="#">
-									<div class="row">
-										<div class="col-md-6 col-12 mb-25">
-											<input type="text" placeholder="Coupon Code" />
-										</div>
-										<div class="col-md-6 col-12 mb-25">
-											<input type="submit" value="Apply Code" />
-										</div>
-									</div>
-								</form>
-							</div>
-
-							<!--=======  End of Discount Coupon  =======-->
-						</div>
-
-						<div class="col-lg-6 col-12 d-flex">
-							<!--=======  Cart summery  =======-->
-
-							<div class="cart-summary">
-								<div class="cart-summary-wrap">
-									<h4>Cart Summary</h4>
-									<p>Sub Total <span>$1250.00</span></p>
-									<p>Shipping Cost <span>$00.00</span></p>
-									<h2>Grand Total <span>$1250.00</span></h2>
-								</div>
-								<div class="cart-summary-button">
-									<button class="checkout-btn">Checkout</button>
-									<button class="update-btn">Update Cart</button>
-								</div>
-							</div>
-
-							<!--=======  End of Cart summery  =======-->
-						</div>
-					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div> <?php include './footer.php'; ?></div>
-
+	<div><?php include './footer.php'; ?></div>
 </body>
 
 </html>
