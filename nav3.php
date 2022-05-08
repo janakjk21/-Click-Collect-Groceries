@@ -23,7 +23,7 @@
 
     <header>
 
-        <a href="#" class="logo">Click & Collect<span> groceries</span></a>
+        <a href="index.php" class="logo">Click & Collect<span> groceries</span></a>
 
         <div class="header-search">
             <form>
@@ -39,8 +39,8 @@
 
         <div class="icons">
             <div id="menu-bar" class="fas fa-bars"></div>
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="Wishlist.php" class="fas fa-heart"></a>
+            <a href="Cart.php" class="fas fa-shopping-cart"></a>
             <a href="#" class="fas fa-user"></a>
         </div>
 
