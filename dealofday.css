@@ -1,3 +1,108 @@
+* {
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+*,
+::after,
+::before {
+	box-sizing: border-box;
+}
+hr {
+	margin: 1rem 0;
+	color: inherit;
+	background-color: currentColor;
+	border: 0;
+	opacity: 0.25;
+}
+hr:not([size]) {
+	height: 1px;
+}
+h3 {
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+	font-weight: 500;
+	line-height: 1.2;
+}
+h3 {
+	font-size: calc(1.3rem + 0.6vw);
+}
+@media (min-width: 1200px) {
+	h3 {
+		font-size: 1.75rem;
+	}
+}
+strong {
+	font-weight: bolder;
+}
+a {
+	color: #0d6efd;
+	text-decoration: underline;
+}
+a:hover {
+	color: #0a58ca;
+}
+img {
+	vertical-align: middle;
+}
+button {
+	border-radius: 0;
+}
+button:focus:not(:focus-visible) {
+	outline: 0;
+}
+button {
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+button {
+	text-transform: none;
+}
+[type="button"],
+button {
+	-webkit-appearance: button;
+}
+::-moz-focus-inner {
+	padding: 0;
+	border-style: none;
+}
+.row {
+	--bs-gutter-x: 1.5rem;
+	--bs-gutter-y: 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: calc(var(--bs-gutter-y) * -1);
+	margin-right: calc(var(--bs-gutter-x) * -0.5);
+	margin-left: calc(var(--bs-gutter-x) * -0.5);
+}
+.row > * {
+	flex-shrink: 0;
+	width: 100%;
+	max-width: 100%;
+	padding-right: calc(var(--bs-gutter-x) * 0.5);
+	padding-left: calc(var(--bs-gutter-x) * 0.5);
+	margin-top: var(--bs-gutter-y);
+}
+.btn-link {
+	font-weight: 400;
+	color: #0d6efd;
+	text-decoration: underline;
+}
+.btn-link:hover {
+	color: #0a58ca;
+}
+.btn-link:disabled {
+	color: #6c757d;
+}
+/*! CSS Used from: http://localhost/Project%20management/dealofday.css */
 @media all {
 	[class*=" icon-nasa-"] {
 		display: inline-block;
@@ -6,7 +111,6 @@
 		font-weight: normal;
 		font-variant: normal;
 		text-transform: none;
-
 		line-height: 1;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
@@ -18,7 +122,6 @@
 	[class*=" pe-7s-"] {
 		display: inline-block;
 		font-family: "Pe-icon-7-stroke";
-
 		font-style: normal;
 		font-weight: normal;
 		font-variant: normal;
@@ -29,9 +132,6 @@
 	}
 	.pe-7s-angle-right:before {
 		content: "\e684";
-	}
-	.pe-7s-angle-left:before {
-		content: "\e686";
 	}
 }
 @media all {
@@ -100,9 +200,6 @@
 	img {
 		-ms-interpolation-mode: bicubic;
 	}
-	.left {
-		float: left !important;
-	}
 	.text-left {
 		text-align: left !important;
 	}
@@ -155,8 +252,7 @@
 		float: left;
 	}
 	div,
-	h3,
-	p {
+	h3 {
 		margin: 0;
 		padding: 0;
 		direction: ltr;
@@ -172,17 +268,6 @@
 	}
 	a img {
 		border: none;
-	}
-	p {
-		font-family: inherit;
-		font-weight: normal;
-		font-size: 100%;
-		line-height: 1.6;
-		margin-bottom: 1.37931em;
-		text-rendering: optimizeLegibility;
-	}
-	p:last-child {
-		margin-bottom: 0;
 	}
 	h3 {
 		font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -463,6 +548,8 @@
 	}
 	.nasa-sc-title {
 		font-weight: 800;
+		font-size: 50px;
+		padding-top: 50px;
 	}
 	.product-deal-special-progress {
 		display: block;
@@ -518,13 +605,6 @@
 	.slick-slider.slick-initialized {
 		display: block;
 	}
-	.slick-slider.nasa-slider-deal-vertical-extra-switcher {
-		display: none;
-	}
-	.slick-slider.nasa-slider-deal-vertical-extra-switcher.slick-initialized {
-		display: block;
-		width: 100%;
-	}
 	.slick-list {
 		position: relative;
 		overflow: hidden;
@@ -571,10 +651,6 @@
 	.slick-initialized .slick-slide {
 		display: block;
 	}
-	.slick-vertical .slick-slide {
-		display: block;
-		height: auto;
-	}
 	button.slick-arrow {
 		display: none !important;
 	}
@@ -583,9 +659,6 @@
 	}
 	.primary-bg {
 		background-color: #f76b6a;
-	}
-	p:empty {
-		display: none;
 	}
 	.star-rating {
 		display: block;
@@ -629,21 +702,8 @@
 		opacity: 0;
 		visibility: hidden;
 	}
-	.html-ready .nasa-invisible-loading {
-		opacity: 1;
-		visibility: visible;
-	}
-	.margin-top-80 {
-		margin-top: 80px !important;
-	}
 	.margin-bottom-25 {
 		margin-bottom: 25px !important;
-	}
-	.padding-left-10 {
-		padding-left: 10px !important;
-	}
-	.padding-right-10 {
-		padding-right: 10px !important;
 	}
 	.columns.nasa-col:hover {
 		z-index: 20;
@@ -685,51 +745,7 @@
 		-webkit-animation-name: fadeInUp_2 !important;
 		animation-name: fadeInUp_2 !important;
 	}
-	.html-ready a {
-		-webkit-transition: color 200ms ease;
-		-moz-transition: color 200ms ease;
-		-o-transition: color 200ms ease;
-		transition: color 200ms ease;
-	}
-	.html-ready .nasa-transition,
-	.html-ready .nasa-product-grid .add_to_cart_text,
-	.html-ready .nasa-nav-icon-slick,
-	.html-ready .nasa-list-category a,
-	.html-ready .product-deal-special-title a,
-	.html-ready .item-slick,
-	.html-ready .item-slick:before,
-	.html-ready .item-deal-thumb:before {
-		-webkit-transition: all 350ms ease;
-		-moz-transition: all 350ms ease;
-		-o-transition: all 350ms ease;
-		transition: all 350ms ease;
-	}
-	.html-ready button,
-	.html-ready .button {
-		-webkit-transition: all 200ms ease;
-		-moz-transition: all 200ms ease;
-		-o-transition: all 200ms ease;
-		transition: all 200ms ease;
-	}
-	.html-ready .nasa-product-grid .add-to-cart-grid {
-		-webkit-transition: color 0.3s 0.001s ease-out,
-			background 0.1s 0.001s ease-out, visibility 0.3s 0.45s ease-out,
-			opacity 0.3s 0.45s ease-out, -webkit-transform 0.3s 0.45s ease-out;
-		-moz-transition: color 0.3s 0.001s ease-out, background 0.1s 0.001s ease-out,
-			visibility 0.3s 0.45s ease-out, opacity 0.3s 0.45s ease-out,
-			-moz-transform 0.3s 0.45s ease-out;
-		-ms-transition: color 0.3s 0.001s ease-out, background 0.1s 0.001s ease-out,
-			visibility 0.3s 0.45s ease-out, opacity 0.3s 0.45s ease-out,
-			-ms-transform 0.3s 0.45s ease-out;
-		-o-transition: color 0.3s 0.001s ease-out, background 0.1s 0.001s ease-out,
-			visibility 0.3s 0.45s ease-out, 0.3s 0.45s ease-out,
-			-o-transform 0.3s 0.45s ease-out;
-		transition: color 0.3s 0.001s ease-out, background 0.1s 0.001s ease-out,
-			visibility 0.3s 0.45s ease-out, opacity 0.3s 0.45s ease-out,
-			transform 0.3s 0.45s ease-out;
-	}
 }
-/*! CSS Used from: http://127.0.0.1:5500/elessi.nasatheme.com/wp-content/themes/elessi-theme-child/style1f93.css?ver=4.8.9 ; media=all */
 @media all {
 	body .button,
 	body button {
@@ -737,18 +753,6 @@
 	}
 	@media only screen and (max-width: 767px) {
 		body .product-img .back-img {
-			display: none;
-		}
-
-		body
-			.nasa-products-special-deal.nasa-products-special-deal-multi-2
-			.nasa-nav-slick-wrap
-			.nasa-nav-icon-slick
-			.nasa-icon {
-			font-size: 30px;
-		}
-
-		body a.nasa-nav-icon-slick {
 			display: none;
 		}
 	}
@@ -777,7 +781,6 @@
 		}
 	}
 	@media only screen and (max-width: 767px) {
-		.hide-for-mobile,
 		.hide-for-small {
 			display: none;
 		}
@@ -812,16 +815,11 @@
 		.mobile-margin-top-30 {
 			margin-top: 30px !important;
 		}
-		.mobile-margin-top-60 {
-			margin-top: 60px !important;
-		}
 	}
 }
-/*! CSS Used from: http://127.0.0.1:5500/elessi.nasatheme.com/wp-content/themes/elessi-theme/assets/css/style-font-weight-500.css ; media=all */
 @media all {
 	h3,
 	strong,
-	.nasa-product-title,
 	.product-deal-special-title,
 	.nasa-products-special-deal.nasa-products-special-deal-multi-2
 		.nasa-list-category
@@ -830,8 +828,6 @@
 	.button,
 	.countdown-period,
 	.nasa-special-deal-style-multi-wrap .nasa-product-grid .add_to_cart_text,
-	.nasa-slider-deal-vertical-extra-switcher.nasa-nav-4-items
-		.nasa-product-price,
 	.nasa-products-special-deal.nasa-products-special-deal-multi-2
 		.product-deal-special-price,
 	.nasa-product-grid .add_to_cart_text,
@@ -839,7 +835,6 @@
 		font-weight: 500 !important;
 	}
 }
-/*! CSS Used from: http://127.0.0.1:5500/elessi.nasatheme.com/wp-content/plugins/nasa-core/assets/css/nasa-sc-woo.css ; media=all */
 @media all {
 	.nasa-products-special-deal {
 		padding: 0;
@@ -858,11 +853,7 @@
 	}
 	.nasa-products-special-deal.nasa-products-special-deal-multi-2
 		.nasa-main-wrap {
-		width: 75%;
-	}
-	.nasa-products-special-deal.nasa-products-special-deal-multi-2
-		.nasa-extra-wrap {
-		width: 25%;
+		width: 100%;
 	}
 	.nasa-products-special-deal.nasa-products-special-deal-multi-2
 		.main-border-wrap {
@@ -877,21 +868,6 @@
 		flex-direction: row;
 		height: 100%;
 		padding-top: 2px;
-	}
-	.nasa-products-special-deal.nasa-products-special-deal-multi-2
-		.extra-border-wrap {
-		display: -webkit-box;
-		display: -moz-box;
-		display: -ms-flexbox;
-		display: -webkit-flex;
-		display: flex;
-		-webkit-box-orient: horizontal;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: row;
-		flex-direction: row;
-		height: 100%;
-		padding-top: 2px;
-		padding-bottom: 2px;
 	}
 	.nasa-products-special-deal.nasa-products-special-deal-multi-2
 		.nasa-main-special {
@@ -909,52 +885,25 @@
 	.nasa-products-special-deal.nasa-products-special-deal-multi-2
 		.nasa-main-top {
 		padding: 0 10px;
+		text-align: center;
 	}
 	.nasa-products-special-deal.nasa-products-special-deal-multi-2
 		.nasa-special-deal-item {
 		padding: 0 10px;
 		outline: none;
 	}
-	.nasa-products-special-deal.nasa-products-special-deal-multi-2
+	/* .nasa-products-special-deal.nasa-products-special-deal-multi-2
 		.nasa-sc-title {
 		display: block;
 		font-size: 180%;
 		margin-top: 18px;
-	}
+	} */
 	.nasa-products-special-deal.nasa-products-special-deal-multi-2
 		.nasa-nav-slick-wrap {
 		position: absolute;
-		top: 20px;
+		top: 2px;
 		right: 25px;
-		font-size: 100%;
-	}
-	.nasa-products-special-deal.nasa-products-special-deal-multi-2
-		.nasa-nav-slick-wrap
-		.nasa-nav-icon-slick {
-		color: #aaa;
-	}
-	.nasa-products-special-deal.nasa-products-special-deal-multi-2
-		.nasa-nav-slick-wrap
-		.nasa-nav-icon-slick
-		.nasa-icon {
 		font-size: 150%;
-		position: relative;
-		top: 5px;
-	}
-	.nasa-products-special-deal.nasa-products-special-deal-multi-2
-		.nasa-nav-slick-wrap
-		.nasa-nav-icon-slick.nasa-nav-prev:after {
-		content: "";
-		display: inline-block;
-		width: 1px;
-		height: 10px;
-		border-left: 1px solid #aaa;
-		margin: 0 30px 0 35px;
-	}
-	.nasa-products-special-deal.nasa-products-special-deal-multi-2
-		.nasa-nav-slick-wrap
-		.nasa-nav-icon-slick:hover {
-		color: #333;
 	}
 	.nasa-products-special-deal.nasa-products-special-deal-multi-2
 		.product-deal-special-wrap-info {
@@ -1124,131 +1073,6 @@
 		height: unset;
 		padding: 0;
 	}
-	.nasa-slider-deal-vertical-extra-switcher {
-		overflow: hidden;
-		padding: 55px 55px 40px 65px;
-	}
-	.nasa-slider-deal-vertical-extra-switcher .item-slick {
-		cursor: pointer;
-		opacity: 0.7;
-		margin: 0;
-		border-top: 1px solid transparent;
-	}
-	.nasa-slider-deal-vertical-extra-switcher .item-slick.slick-current,
-	.nasa-slider-deal-vertical-extra-switcher .item-slick:hover {
-		opacity: 1;
-	}
-	.nasa-slider-deal-vertical-extra-switcher
-		.item-slick.slick-current
-		.nasa-slick-img
-		img,
-	.nasa-slider-deal-vertical-extra-switcher
-		.item-slick:hover
-		.nasa-slick-img
-		img {
-		border-color: #a7a7a7;
-	}
-	.nasa-slider-deal-vertical-extra-switcher .nasa-slick-img {
-		text-align: center;
-		width: 33%;
-		padding-left: 1px;
-		padding-right: 1px;
-	}
-	.nasa-slider-deal-vertical-extra-switcher .nasa-slick-img img {
-		height: auto;
-		width: 100%;
-		display: inline-block;
-		border: 1px solid transparent;
-	}
-	.nasa-slider-deal-vertical-extra-switcher .nasa-slick-info {
-		width: 67%;
-	}
-	.nasa-slider-deal-vertical-extra-switcher.nasa-nav-4-items {
-		padding: 0;
-	}
-	.nasa-slider-deal-vertical-extra-switcher.nasa-nav-4-items .slick-list {
-		padding-left: 6px;
-	}
-	.nasa-slider-deal-vertical-extra-switcher.nasa-nav-4-items .item-deal-thumb {
-		padding: 10px;
-		margin: 0;
-		border: 1px solid #a7a7a7;
-		position: relative;
-		-webkit-border-radius: 5px;
-		-moz-border-radius: 5px;
-		border-radius: 5px;
-	}
-	.nasa-slider-deal-vertical-extra-switcher.nasa-nav-4-items
-		.item-deal-thumb:last-child {
-		margin-bottom: 0;
-	}
-	.nasa-slider-deal-vertical-extra-switcher.nasa-nav-4-items
-		.item-deal-thumb:before {
-		right: 100%;
-		top: 50%;
-		border: solid transparent;
-		content: " ";
-		height: 0;
-		width: 0;
-		position: absolute;
-		pointer-events: none;
-		visibility: hidden;
-	}
-	.nasa-slider-deal-vertical-extra-switcher.nasa-nav-4-items
-		.item-deal-thumb
-		.nasa-slick-img
-		img {
-		border-color: transparent;
-	}
-	.nasa-slider-deal-vertical-extra-switcher.nasa-nav-4-items
-		.item-deal-thumb:after {
-		content: "";
-		display: block;
-		clear: both;
-	}
-	.nasa-slider-deal-vertical-extra-switcher.nasa-nav-4-items .slick-slide {
-		padding: 0 1px 20px 1px;
-	}
-	.nasa-slider-deal-vertical-extra-switcher.nasa-nav-4-items
-		.slick-slide.slick-current
-		.item-deal-thumb,
-	.nasa-slider-deal-vertical-extra-switcher.nasa-nav-4-items
-		.slick-slide:hover
-		.item-deal-thumb {
-		border-color: #f76b6a;
-	}
-	.nasa-slider-deal-vertical-extra-switcher.nasa-nav-4-items
-		.slick-slide.slick-current
-		.item-deal-thumb:before,
-	.nasa-slider-deal-vertical-extra-switcher.nasa-nav-4-items
-		.slick-slide:hover
-		.item-deal-thumb:before {
-		border-color: transparent;
-		border-right-color: inherit;
-		border-width: 7px;
-		margin-top: -7px;
-		visibility: visible;
-	}
-	.nasa-slider-deal-vertical-extra-switcher.nasa-nav-4-items
-		.slick-slide:last-child {
-		padding-bottom: 0;
-	}
-	.nasa-slider-deal-vertical-extra-switcher.nasa-nav-4-items
-		.nasa-product-price,
-	.nasa-slider-deal-vertical-extra-switcher.nasa-nav-4-items
-		.nasa-product-title {
-		font-weight: 700;
-		margin-bottom: 5px;
-	}
-	.nasa-slider-deal-vertical-extra-switcher.nasa-nav-4-items
-		.nasa-product-title {
-		line-height: 1.2;
-		font-size: 115%;
-	}
-	.nasa-slider-deal-vertical-extra-switcher.nasa-nav-4-items
-		.nasa-product-price.price {
-		color: #ff3300;
-	}
 	@media only screen and (max-width: 767px) {
 		.nasa-products-special-deal {
 			margin-bottom: 20px;
@@ -1271,18 +1095,14 @@
 			padding-left: 0;
 		}
 		body
-			.nasa-products-special-deal.nasa-products-special-deal-multi-2
-			.nasa-nav-slick-wrap
-			.nasa-nav-icon-slick.nasa-nav-prev:after {
-			margin: 0 5px;
-		}
-		body
 			.product-item
 			.product-special-deals
 			.nasa-product-grid
 			.add-to-cart-grid
 			.add_to_cart_text {
-			display: block;
+			/* display: block; */
+			/* display: flex;
+			align-items: center; */
 		}
 	}
 	@media (max-width: 379px) {
@@ -1305,12 +1125,8 @@
 		}
 	}
 }
-/*! CSS Used from: http://127.0.0.1:5500/elessi.nasatheme.com/wp-content/uploads/nasa-dynamic/dynamic08e3.css?ver=1651045173 ; media=all */
 @media all {
 	h3 {
-		font-family: "Jost", Arial, Helvetica, sans-serif;
-	}
-	p {
 		font-family: "Jost", Arial, Helvetica, sans-serif;
 	}
 	.price,
@@ -1329,7 +1145,6 @@
 		-moz-border-radius: 1px;
 	}
 }
-/*! CSS Used from: Embedded */
 body .primary-color,
 body a:hover,
 body a:focus,
@@ -1352,21 +1167,9 @@ body
 }
 body
 	.nasa-products-special-deal.nasa-products-special-deal-multi-2
-	.nasa-main-special,
-body
-	.nasa-slider-deal-vertical-extra-switcher.nasa-nav-4-items
-	.slick-slide.slick-current
-	.item-deal-thumb,
-body
-	.nasa-slider-deal-vertical-extra-switcher.nasa-nav-4-items
-	.slick-slide:hover
-	.item-deal-thumb {
+	.nasa-main-special {
 	border-color: #6bad0d;
-}
-body
-	.nasa-slider-deal-vertical-extra-switcher.nasa-nav-4-items
-	.item-slick.slick-current:before {
-	border-right-color: #6bad0d;
+	padding-bottom: 100px;
 }
 body button,
 body .button,
@@ -1394,7 +1197,317 @@ body
 	border-color: #629f0c;
 	color: #fff;
 }
+/*! CSS Used from: http://localhost/Project%20management/Topcatogerios.css */
+@media all {
+	a {
+		background: transparent;
+	}
+	a:focus {
+		outline: thin dotted;
+	}
+	a:active,
+	a:hover {
+		outline: 0;
+	}
+	a:active {
+		color: #333;
+	}
+	img {
+		border: 0;
+	}
+	img {
+		color: transparent;
+	}
+	*,
+	*:before,
+	*:after {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	a:hover {
+		cursor: pointer;
+	}
+	a:focus {
+		outline: none;
+	}
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+	img {
+		-ms-interpolation-mode: bicubic;
+	}
+	img {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.row {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		margin-bottom: 0;
+		max-width: 1200px;
+		*zoom: 1;
+	}
+	.row:before,
+	.row:after {
+		content: " ";
+		display: table;
+	}
+	.row:after {
+		clear: both;
+	}
+	.columns {
+		position: relative;
+		padding-left: 10px;
+		padding-right: 10px;
+		width: 100%;
+		float: left;
+	}
+	div,
+	h3 {
+		margin: 0;
+		padding: 0;
+		direction: ltr;
+	}
+	a {
+		color: #333;
+		text-decoration: none;
+		line-height: inherit;
+	}
+	a:hover,
+	a:focus {
+		color: #f76b6a;
+	}
+	a img {
+		border: none;
+	}
+	h3 {
+		font-family: "Open Sans", Helvetica, Arial, sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		color: inherit;
+		text-rendering: optimizeLegibility;
+		margin-top: 0.2em;
+		margin-bottom: 0.5em;
+		line-height: 1.1931em;
+	}
+	h3 {
+		font-size: 1.31034em;
+	}
+	@media only screen and (min-width: 768px) {
+		h3 {
+			line-height: 1.4;
+		}
+		h3 {
+			font-size: 1.65517em;
+		}
+	}
+
+	.columns.nasa-col:hover {
+		z-index: 20;
+	}
+	.fadeInUp {
+		-webkit-animation-name: fadeInUp_2 !important;
+		animation-name: fadeInUp_2 !important;
+	}
+	@media only screen and (min-width: 768px) {
+		.large-12 {
+			width: 100%;
+		}
+	}
+	@media only screen and (max-width: 767px) {
+		.mobile-margin-top-30 {
+			margin-top: 30px !important;
+		}
+	}
+	h3 {
+		font-weight: 500 !important;
+	}
+	h3 {
+		font-family: "Jost", Arial, Helvetica, sans-serif;
+	}
+}
+body a:hover,
+body a:focus {
+	color: #6bad0d;
+}
+
+*,
+::after,
+::before {
+	box-sizing: border-box;
+}
+a {
+	color: #0d6efd;
+	text-decoration: underline;
+}
+a:hover {
+	color: #0a58ca;
+}
+::-moz-focus-inner {
+	padding: 0;
+	border-style: none;
+}
+.row {
+	--bs-gutter-x: 1.5rem;
+	--bs-gutter-y: 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: calc(var(--bs-gutter-y) * -1);
+	/* margin-right: calc(var(--bs-gutter-x) * -0.5); */
+	margin-left: calc(var(--bs-gutter-x) * 1.5);
+}
+.row > * {
+	flex-shrink: 0;
+	width: 100%;
+	max-width: 100%;
+	padding-right: calc(var(--bs-gutter-x) * 0.5);
+	padding-left: calc(var(--bs-gutter-x) * 0.5);
+	margin-top: var(--bs-gutter-y);
+}
+*,
+*::after,
+*::before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+a {
+	color: inherit;
+	display: inline-block;
+	line-height: inherit;
+	text-decoration: none;
+	cursor: pointer;
+}
+a,
+*:focus {
+	outline: none !important;
+}
+a:focus {
+	color: inherit;
+	outline: none;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #80bb01;
+}
+.row {
+	--bs-gutter-x: 30px;
+}
+*,
+::after,
+::before {
+	box-sizing: border-box;
+}
+h3 {
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+	font-weight: 500;
+	line-height: 1.2;
+}
+h3 {
+	font-size: calc(1.3rem + 0.6vw);
+}
+@media (min-width: 1200px) {
+	h3 {
+		font-size: 1.75rem;
+	}
+}
+a {
+	color: #0d6efd;
+	text-decoration: underline;
+}
+a:hover {
+	color: #0a58ca;
+}
+::-moz-focus-inner {
+	padding: 0;
+	border-style: none;
+}
+.row {
+	--bs-gutter-x: 1.5rem;
+	--bs-gutter-y: 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: calc(var(--bs-gutter-y) * -1);
+	margin-right: calc(var(--bs-gutter-x) * -0.5);
+	margin-left: calc(var(--bs-gutter-x) * -0.5);
+}
+.row > * {
+	flex-shrink: 0;
+	width: 100%;
+	max-width: 100%;
+	padding-right: calc(var(--bs-gutter-x) * 0.5);
+	padding-left: calc(var(--bs-gutter-x) * 0.5);
+	margin-top: var(--bs-gutter-y);
+}
+*,
+*::after,
+*::before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+h3 {
+	color: #222222;
+	font-family: "Rubik", sans-serif;
+	font-weight: 400;
+	margin-top: 0;
+}
+h3 {
+	font-size: 24px;
+	line-height: 30px;
+}
+a {
+	color: inherit;
+	display: inline-block;
+	line-height: inherit;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+*:focus {
+	outline: none !important;
+}
+a:focus {
+	color: inherit;
+	outline: none;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #80bb01;
+}
+.row {
+	--bs-gutter-x: 30px;
+}
 /*! CSS Used keyframes */
+@-webkit-keyframes fadeInUp_2 {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 20px, 0);
+		transform: translate3d(0, 20px, 0);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none;
+	}
+}
+@keyframes fadeInUp_2 {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 20px, 0);
+		transform: translate3d(0, 20px, 0);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none;
+	}
+}
 @-webkit-keyframes fadeInUp_2 {
 	0% {
 		opacity: 0;

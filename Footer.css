@@ -71,8 +71,8 @@ a:hover {
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: calc(var(--bs-gutter-y) * -1);
-	margin-right: calc(var(--bs-gutter-x) * -0.5);
-	margin-left: calc(var(--bs-gutter-x) * -0.5);
+	/* margin-right: calc(var(--bs-gutter-x) * -0.5);
+	margin-left: calc(var(--bs-gutter-x) * -0.5); */
 }
 .row > * {
 	flex-shrink: 0;
@@ -236,10 +236,6 @@ a {
 	cursor: pointer;
 }
 a,
-span {
-	-webkit-transition: all 0.3s ease 0s;
-	transition: all 0.3s ease 0s;
-}
 *:focus {
 	outline: none !important;
 }
@@ -355,8 +351,6 @@ a:hover {
 	white-space: nowrap;
 	opacity: 0;
 	visibility: hidden;
-	-webkit-transition: 0.3s;
-	transition: 0.3s;
 }
 .social-links a:after {
 	position: absolute;
@@ -370,8 +364,6 @@ a:hover {
 	border-color: #444444 transparent transparent transparent;
 	opacity: 0;
 	visibility: hidden;
-	-webkit-transition: 0.3s;
-	transition: 0.3s;
 }
 .social-links a:hover:before,
 .social-links a:hover:after {
@@ -552,12 +544,12 @@ a:hover {
 	padding-bottom: 40px !important;
 }
 /*! CSS Used from: http://127.0.0.1:5500/assets/css/main.css */
-*,
+/* *,
 *::after,
 *::before {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-}
+} */
 h3 {
 	color: #222222;
 	font-family: "Rubik", sans-serif;
@@ -575,13 +567,7 @@ a {
 	text-decoration: none;
 	cursor: pointer;
 }
-a {
-	-webkit-transition: all 0.3s ease 0s;
-	transition: all 0.3s ease 0s;
-}
-*:focus {
-	outline: none !important;
-}
+
 a:focus {
 	color: inherit;
 	outline: none;
