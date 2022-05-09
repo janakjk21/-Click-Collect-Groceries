@@ -39,7 +39,7 @@
             <div id="menu-bar" class="fas fa-bars"></div>
             <a href="Wishlist.php" class="fas fa-heart"></a>
             <a href="Cart.php" class="fas fa-shopping-cart"></a>
-            <a href="#" class="fas fa-user"></a>
+            <a href="Login.php" class="fas fa-user"></a>
         </div>
 
     </header>

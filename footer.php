@@ -5,9 +5,11 @@
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link href="./Footer.css" rel="stylesheet" />
+	<link href="./footer.css" rel="stylesheet" />
 
-	<title>Document</title>
+	<!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
 </head>
 
 <body>
@@ -20,11 +22,11 @@
 					<div class="social-media-section">
 						<h2>Follow us</h2>
 						<div class="social-links">
-							<a class="facebook" href="http://www.facebook.com/" data-tooltip="Facebook"><i class="fa fa-facebook"></i></a>
-							<a class="twitter" href="http://www.twitter.com/" data-tooltip="Twitter"><i class="fa fa-twitter"></i></a>
-							<a class="instagram" href="http://www.instagram.com/" data-tooltip="Instagram"><i class="fa fa-instagram"></i></a>
-							<a class="linkedin" href="http://www.linkedin.com/" data-tooltip="Linkedin"><i class="fa fa-linkedin"></i></a>
-							<a class="rss" href="http://www.rss.com/" data-tooltip="RSS"><i class="fa fa-rss"></i></a>
+							<a class="facebook" href="http://www.facebook.com/" data-tooltip="Facebook"><i class="fa fa-facebook" style="font-size:15px"></i></a>
+							<a class="twitter" href="http://www.twitter.com/" data-tooltip="Twitter"><i class="fa fa-twitter" style="font-size:15px"></i></a>
+							<a class="instagram" href="http://www.instagram.com/" data-tooltip="Instagram"><i class="fa fa-instagram" style="font-size:15px"></i></a>
+							<a class="linkedin" href="http://www.linkedin.com/" data-tooltip="Linkedin"><i class="fa fa-linkedin" style="font-size:15px"></i></a>
+							<a class="rss" href="http://www.rss.com/" data-tooltip="RSS"><i class="fa fa-rss" style="font-size:15px"></i></a>
 						</div>
 					</div>
 
