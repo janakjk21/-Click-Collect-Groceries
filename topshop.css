@@ -1,0 +1,118 @@
+*::selection {
+	background: var(--green);
+	color: #fff;
+}
+
+html {
+	font-size: 62.5%;
+	overflow-x: hidden;
+	scroll-padding-top: 6.5rem;
+	scroll-behavior: smooth;
+}
+
+section {
+	padding: 2rem 9%;
+}
+
+.btn {
+	display: inline-block;
+	margin-top: 1rem;
+	background: var(--green);
+	color: rgb(193, 14, 14);
+	padding: 0.8rem 3rem;
+	font-size: 1.7rem;
+	text-align: center;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background: var(--black);
+}
+
+.heading {
+	text-align: center;
+	color: var(--black);
+	text-transform: uppercase;
+	padding: 1rem;
+	font-size: 3.5rem;
+	padding-bottom: 2rem;
+}
+
+section {
+	padding: 2rem 9%;
+}
+.heading {
+	text-align: center;
+	color: var(--black);
+	text-transform: uppercase;
+	padding: 1rem 1rem 2rem;
+	font-size: 3.5rem;
+}
+.heading span {
+	color: var(--green);
+	text-transform: uppercase;
+}
+.category .box-container {
+	display: flex;
+	gap: 1.5rem;
+	flex-wrap: wrap;
+	padding-top: 1rem;
+}
+.category .box-container .box {
+	border: 0.1rem solid rgba(0, 0, 0, 0.3);
+	border-radius: 0.5rem;
+	text-align: center;
+	padding: 2rem;
+	flex: 1 1 25rem;
+}
+.category .box-container .box h3 {
+	font-size: 3.5rem;
+	color: var(--black);
+}
+.category .box-container .box p {
+	font-size: 2rem;
+	color: rgb(102, 102, 102);
+	padding: 0.5rem 0px;
+}
+.category .box-container .box img {
+	width: 20rem;
+	margin: 0.5rem 0px;
+}
+.btn {
+	display: inline-block;
+	margin-top: 1rem;
+	background: var(--green);
+	color: rgb(183, 16, 16);
+	padding: 0.8rem 3rem;
+	font-size: 1.7rem;
+	text-align: center;
+	cursor: pointer;
+}
+.btn:hover {
+	background: var(--black);
+}
+.category .box-container .box .btn {
+	display: block;
+}
+@media (max-width: 991px) {
+	section {
+		padding: 2rem;
+	}
+}
+@media (max-width: 450px) {
+	.heading {
+		font-size: 3rem;
+	}
+}
+
+* {
+	font-family: "Nunito", sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	text-transform: capitalize;
+	transition: all 0.2s linear;
+}

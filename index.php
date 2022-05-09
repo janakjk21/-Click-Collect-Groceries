@@ -10,8 +10,11 @@
 
 <body>
     <div><?php include './navbar.php'; ?></div>
+    <div> <?php include './Hero.php'; ?></div>
+
+    <div> <?php include './Swiper.php'; ?></div>
+
     <div> <?php include './Dealofday.php'; ?></div>
-    <div> <?php include './Topcategories.php'; ?></div>
 
     <div> <?php include './footer.php'; ?></div>
 
