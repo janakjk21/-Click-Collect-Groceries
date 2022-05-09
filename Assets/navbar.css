@@ -168,6 +168,7 @@ header.active {
 .navbar .links a {
 	display: block;
 	border-bottom: 0.1rem solid rgba(0, 0, 0, 0.3);
+	width: 200px;
 	font-size: 2rem;
 	padding: 1.5rem 0;
 	color: var(--black-color);

@@ -53,7 +53,7 @@
     <nav class="navbar" style="position:absolute;">
 
         <div class="user">
-            <img src="./Assets//click & clect groceries.png" alt="Click & Collect Groceries Logo">
+            <img src="./Assets//img//click & collect groceries.png" alt="Click & Collect Groceries Logo">
             <h3>click & collect groceries</h3>
         </div>
 
