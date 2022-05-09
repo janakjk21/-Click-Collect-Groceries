@@ -11,7 +11,7 @@
 </head>
 
 <body>
-	<div> <?php include './nav3.php'; ?></div>
+	<div> <?php include './navbar.php'; ?></div>
 
 	<div class="page-section section mb-50">
 		<div class="container">

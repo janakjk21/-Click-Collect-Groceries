@@ -5,14 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="./Assets//nav3.css">
+    <link rel="stylesheet" href="./Assets//navbar.css">
 
 </head>
 
@@ -53,7 +51,7 @@
     <nav class="navbar" style="position:absolute;">
 
         <div class="user">
-            <img src="./Assets//click & clect groceries.png" alt="Click & Collect Groceries Logo">
+            <img src="./Assets//img//click & collect groceries.png" alt="Click & Collect Groceries Logo">
             <h3>click & collect groceries</h3>
         </div>
 
@@ -70,7 +68,7 @@
     </nav>
 
     <!-- custom js file link -->
-    <script src="./Assets//nav3.js"></script>
+    <script src="./Assets//navbar.js"></script>
 
 </body>
 

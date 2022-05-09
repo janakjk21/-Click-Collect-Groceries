@@ -12,7 +12,7 @@
 </head>
 
 <body>
-	<div style="margin: 20px;"><?php include './nav3.php'; ?></div>
+	<div style="margin: 20px;"><?php include './navbar.php'; ?></div>
 
 
 	<div class="page-section section mb-50">
