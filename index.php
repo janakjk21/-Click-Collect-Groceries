@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div><?php include './nav3.php'; ?></div>
+    <div><?php include './navbar.php'; ?></div>
     <div> <?php include './Dealofday.php'; ?></div>
     <div> <?php include './Topcategories.php'; ?></div>
 
