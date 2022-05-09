@@ -50,7 +50,7 @@
 
     <!-- navbar section  -->
 
-    <nav class="navbar">
+    <nav class="navbar" style="position:absolute;">
 
         <div class="user">
             <img src="./Assets//click & clect groceries.png" alt="Click & Collect Groceries Logo">
@@ -70,7 +70,7 @@
     </nav>
 
     <!-- custom js file link -->
-    <!-- <script src="./Assets//nav3.js"></script> -->
+    <script src="./Assets//nav3.js"></script>
 
 </body>
 
