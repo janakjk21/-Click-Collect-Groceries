@@ -1,16 +1,18 @@
 /*! CSS Used from: http://127.0.0.1:5500/assets/css/bootstrap.min.css */
-*,
+/* *, */
 /* ::after,
 ::before {
 	box-sizing: border-box;
 } */
-a {
+/* a {
 	color: #0d6efd;
 	text-decoration: underline;
 }
 a:hover {
 	color: #0a58ca;
-}
+} */
+
+
 img {
 	vertical-align: middle;
 }
@@ -31,28 +33,37 @@ tr {
 	border-style: solid;
 	border-width: 0;
 }
-input {
+
+/* input {
 	margin: 0;
 	font-family: inherit;
 	font-size: inherit;
 	line-height: inherit;
-}
-::-moz-focus-inner {
+} */
+
+
+ /* ::-moz-focus-inner {
 	padding: 0;
 	border-style: none;
-}
+}  */
+
+
 .img-fluid {
 	max-width: 100%;
 	height: auto;
 }
-.container {
+
+
+/* .container {
 	width: 100%;
 	padding-right: var(--bs-gutter-x, 0.75rem);
 	padding-left: var(--bs-gutter-x, 0.75rem);
 	margin-right: auto;
 	margin-left: auto;
-}
-@media (min-width: 576px) {
+} */
+
+
+/* @media (min-width: 576px) {
 	.container {
 		max-width: 540px;
 	}
@@ -76,8 +87,10 @@ input {
 	.container {
 		max-width: 1320px;
 	}
-}
-.row {
+} */
+
+
+/* .row {
 	--bs-gutter-x: 1.5rem;
 	--bs-gutter-y: 0;
 	display: flex;
@@ -85,19 +98,22 @@ input {
 	margin-top: calc(var(--bs-gutter-y) * -1);
 	margin-right: calc(var(--bs-gutter-x) * -0.5);
 	margin-left: calc(var(--bs-gutter-x) * -0.5);
-}
-.row > * {
+} */
+
+/* .row > * {
 	flex-shrink: 0;
 	width: 100%;
 	max-width: 100%;
 	padding-right: calc(var(--bs-gutter-x) * 0.5);
 	padding-left: calc(var(--bs-gutter-x) * 0.5);
 	margin-top: var(--bs-gutter-y);
-}
-.col-12 {
+} */
+/* .col-12 {
 	flex: 0 0 auto;
 	width: 100%;
-}
+} */
+
+
 .table {
 	--bs-table-bg: transparent;
 	--bs-table-accent-bg: transparent;
@@ -132,37 +148,42 @@ input {
 	overflow-x: auto;
 	-webkit-overflow-scrolling: touch;
 }
+
+
 /*! CSS Used from: http://127.0.0.1:5500/assets/css/font-awesome.min.css */
-.fa {
+/* .fa {
 	display: inline-block;
 	font: normal normal normal 14px/1 FontAwesome;
 	font-size: inherit;
 	text-rendering: auto;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-}
-.fa-trash-o:before {
+} */
+
+/* .fa-trash-o:before {
 	content: "\f014";
-}
+} */
 /*! CSS Used from: http://127.0.0.1:5500/assets/css/helper.css */
-.mb-50 {
+/* .mb-50 {
 	margin-bottom: 50px !important;
-}
-/*! CSS Used from: http://127.0.0.1:5500/assets/css/main.css */
+} */
+
+
+/* ! CSS Used from: http://127.0.0.1:5500/assets/css/main.css */
 /* *,
 *::after,
 *::before {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 } */
-a {
+/* a {
 	color: inherit;
 	display: inline-block;
 	line-height: inherit;
 	text-decoration: none;
 	cursor: pointer;
-}
-a,
+} */
+/* a,
 img,
 input,
 *:focus {
@@ -173,10 +194,12 @@ a:focus {
 	outline: none;
 	text-decoration: none;
 }
+
 a:hover {
 	text-decoration: none;
 	color: #80bb01;
-}
+} */
+
 .container {
 	width: 100%;
 	padding-right: 15px;
@@ -352,8 +375,11 @@ a:hover {
 		text-align: center;
 	}
 }
+
+
+
 /*! CSS Used fontfaces */
-@font-face {
+/* @font-face {
 	font-family: "FontAwesome";
 	src: url("http://127.0.0.1:5500/assets/fonts/fontawesome-webfont3e6e.eot?v=4.7.0");
 	src: url("http://127.0.0.1:5500/assets/fonts/fontawesome-webfontd41d.eot#iefix&v=4.7.0")
@@ -369,4 +395,4 @@ a:hover {
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-}
+} */

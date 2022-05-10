@@ -5,13 +5,16 @@
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Document</title>
+	
 	<link href="./bootstrap.min.css" rel="stylesheet" />
 
 	<link href="./Wishlist.css" rel="stylesheet" />
+
+	<title>Wishlist</title>
 </head>
 
 <body>
+
 	<div style="margin: 20px;"><?php include './navbar.php'; ?></div>
 
 
@@ -37,7 +40,7 @@
 								<tbody>
 									<tr>
 										<td class="pro-thumbnail">
-											<a href="#"><img width="350" height="350" src="assets/images/products/product01.webp" class="img-fluid" alt="Product" /></a>
+											<a href="#"><img width="350" height="350" src="assets/img/click & collect groceries.png" class="img-fluid" alt="Product" /></a>
 										</td>
 										<td class="pro-title">
 											<a href="#">Cillum dolore tortor nisl fermentum</a>
@@ -55,7 +58,7 @@
 									</tr>
 									<tr>
 										<td class="pro-thumbnail">
-											<a href="#"><img width="350" height="350" src="assets/images/products/product02.webp" class="img-fluid" alt="Product" /></a>
+											<a href="#"><img width="350" height="350" src="assets/img/click & collect groceries.png" class="img-fluid" alt="Product" /></a>
 										</td>
 										<td class="pro-title">
 											<a href="#">Auctor gravida pellentesque</a>
@@ -73,7 +76,7 @@
 									</tr>
 									<tr>
 										<td class="pro-thumbnail">
-											<a href="#"><img width="350" height="350" src="assets/images/products/product03.webp" class="img-fluid" alt="Product" /></a>
+											<a href="#"><img width="350" height="350" src="assets/img/click & collect groceries.png" class="img-fluid" alt="Product" /></a>
 										</td>
 										<td class="pro-title">
 											<a href="#">Condimentum posuere consectetur</a>
@@ -91,7 +94,7 @@
 									</tr>
 									<tr>
 										<td class="pro-thumbnail">
-											<a href="#"><img width="350" height="350" src="assets/images/products/product04.webp" class="img-fluid" alt="Product" /></a>
+											<a href="#"><img width="350" height="350" src="assets/img/click & collect groceries.png" class="img-fluid" alt="Product" /></a>
 										</td>
 										<td class="pro-title">
 											<a href="#">Habitasse dictumst elementum</a>
@@ -117,6 +120,7 @@
 			</div>
 		</div>
 	</div>
+	
 	<div><?php include './footer.php'; ?></div>
 </body>
 
