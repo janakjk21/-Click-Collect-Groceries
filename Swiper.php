@@ -28,8 +28,8 @@
 
 		.swiper {
 			width: 100%;
-			height: 50%;
-			padding: 20px;
+
+
 		}
 
 		.swiper-slide {
@@ -50,21 +50,27 @@
 			-ms-flex-align: center;
 			-webkit-align-items: center;
 			align-items: center;
-			box-shadow: 0 0 4px 0 rgba(1, 1, 1, 0.1);
-			border-radius: 3%;
+			/* box-shadow: 0 0 4px 0 rgba(1, 1, 1, 0.1); */
+			box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+			border-radius: 5%;
 		}
 
 		.swiper-slide img {
 			display: block;
 			width: 100%;
-			height: 50%;
+			height: 70%;
 			object-fit: cover;
 		}
 	</style>
 </head>
 
 <body>
-	<!-- Swiper -->
+	<hr>
+	<div style="margin-top :70px;"></div>
+	<div style="text-align: center;">
+		<h1 style="font-size:50px ; "> Deal of The day</h1>
+	</div>
+
 	<div class="swiper mySwiper">
 		<div class="swiper-wrapper">
 			<div class="swiper-slide">
@@ -159,6 +165,7 @@
 			</div>
 		</div>
 		<div class="swiper-pagination"></div>
+		<div style="margin-top :70px;"></div>
 	</div>
 
 	<!-- Swiper JS -->

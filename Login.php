@@ -12,10 +12,12 @@
 
 <body>
 
-    <div><?php include './navbar.php'; ?></div>
+    <div><?php include './nav.php'; ?></div>
 
-    <div class="container" style="padding-left:10%">
-        <div class="container-wrapper">
+
+
+    <div class="container">
+        <div class="container-wrapper" style="margin-left: auto;margin-right: auto; margin-top: 5%;">
 
             <h3 class="login-text"><i class="bi bi-person-circle ac-logo"></i>Login</h3>
 
@@ -49,7 +51,7 @@
 
     </div>
 
-    <div> <?php include './footer.php'; ?></div>
+
 
 </body>
 

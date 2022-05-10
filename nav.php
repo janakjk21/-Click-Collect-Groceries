@@ -19,7 +19,7 @@
 
     <!-- header section starts  -->
 
-    <header>
+    <header style="display:flex;">
 
         <a href="index.php" class="logo">Click & Collect<span> groceries</span></a>
 

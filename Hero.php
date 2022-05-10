@@ -10,41 +10,32 @@
 
 	<!-- Demo styles -->
 	<style>
-		html,
-		body {
-			position: relative;
-			height: 70%;
-			width: 90%;
-			margin-right: auto;
-			margin-left: auto;
-			/* padding: 4%; */
-		}
-
-		body {
-			background: rgb(255, 255, 255);
-			font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-			font-size: 14px;
-			color: #000;
-			margin: 0;
-			padding: 0;
-		}
-
 		.swiper {
 			width: 100%;
-			height: 70%;
-			box-shadow: 0 0 4px 0 rgba(1, 1, 1, 0.1);
-
-			/* border-radius: 5%; */
+			height: 100%;
 		}
 
 		.swiper-slide {
-			background-position: center;
-			background-size: cover;
-			box-shadow: 0 0 4px 0 rgba(1, 1, 1, 0.1);
-			border-radius: 5%;
+			text-align: center;
+			font-size: 18px;
+			background: #fff;
+
+			/* Center slide text vertically */
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			-webkit-justify-content: center;
+			justify-content: center;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			-webkit-align-items: center;
+			align-items: center;
 		}
 
-		.img1 {
+		.swiper-slide img {
 			display: block;
 			width: 100%;
 			height: 100%;
@@ -55,23 +46,21 @@
 
 <body>
 	<!-- Swiper -->
-	<div class="swiper mySwiper">
+	<div class="swiper mySwiper-one">
 		<div class="swiper-wrapper">
 			<div class="swiper-slide">
-				<img src="./Assets/img/O1CN01t2uqDM1qRqLT6xhqx_!!6000000005493-0-tps-990-400.jpg" class="img1 " height="50%" />
+				<h1 style="color:black ;position:absolute"> jadjalsjflk</h1>
+				<img src="./Assets/product06.webp" style="width:100% ;height:40%">
 			</div>
-			<div class="swiper-slide">
-				<img src="./Assets/img/product06.webp" class="img1 " height="50%" />
-			</div>
-			<div class="swiper-slide">
-				<img src="./Assets/img/O1CN01t2uqDM1qRqLT6xhqx_!!6000000005493-0-tps-990-400.jpg" class="img1 " height="50%" />
-			</div>
-			<div class="swiper-slide">
-				<img src="https://swiperjs.com/demos/images/nature-4.jpg" class="img1 " height="50%" />
-			</div>
+			<div class="swiper-slide"><img src="./Assets/product06.webp" style="width:100% ;height:600px"></div>
+
+			<div class="swiper-slide"><img src="./Assets/img/O1CN01t2uqDM1qRqLT6xhqx_!!6000000005493-0-tps-990-400.jpg" style="width:100% ;height:600px"></div>
+
+			<div class="swiper-slide"><img src="./Assets/img/O1CN01t2uqDM1qRqLT6xhqx_!!6000000005493-0-tps-990-400.jpg" style="width:100% ;height:600px"></div>
+
+
+
 		</div>
-		<div class="swiper-button-next"></div>
-		<div class="swiper-button-prev"></div>
 		<div class="swiper-pagination"></div>
 	</div>
 
@@ -80,16 +69,9 @@
 
 	<!-- Initialize Swiper -->
 	<script>
-		var swiper = new Swiper(".mySwiper", {
-			spaceBetween: 30,
-			effect: "fade",
-			navigation: {
-				nextEl: ".swiper-button-next",
-				prevEl: ".swiper-button-prev",
-			},
+		var swiperOne = new Swiper(".mySwiper-one", {
 			pagination: {
 				el: ".swiper-pagination",
-				clickable: true,
 			},
 		});
 	</script>

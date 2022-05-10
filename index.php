@@ -9,14 +9,23 @@
 </head>
 
 <body>
-    <div><?php include './navbar.php'; ?></div>
-    <div> <?php include './Hero.php'; ?></div>
 
-    <div> <?php include './Swiper.php'; ?></div>
 
-    <div> <?php include './Dealofday.php'; ?></div>
+    <?php
 
-    <div> <?php include './footer.php'; ?></div>
+    include('./newpage.php');
+    include('./product_card_image_tiles.php');
+    include('./Dealofday.php');
+    include('./Swiper.php');
+    include('./footer.php');
+
+
+
+    ?>
+
+
+
+    <!-- <div> </div> -->
 
 
 
