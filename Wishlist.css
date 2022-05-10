@@ -317,7 +317,7 @@ a:hover {
 	font-weight: 500;
 	color: #666666;
 }
-.cart-table td.pro-quantity .pro-qty {
+/* .cart-table td.pro-quantity .pro-qty {
 	display: inline-block;
 	position: relative;
 	width: 100px;
@@ -357,7 +357,7 @@ a:hover {
 	font-size: 15px;
 	font-weight: 500;
 	color: #666666;
-}
+} */
 .cart-table td.pro-remove a {
 	display: block;
 	font-weight: 500;

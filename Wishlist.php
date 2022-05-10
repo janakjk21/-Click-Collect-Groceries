@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	
-	<link href="./bootstrap.min.css" rel="stylesheet" />
+	<link href=".//Assets//css//bootstrap.min.css" rel="stylesheet" />
 
 	<link href="./Wishlist.css" rel="stylesheet" />
 
@@ -15,7 +15,7 @@
 
 <body>
 
-	<div style="margin: 20px;"><?php include './navbar.php'; ?></div>
+	<div style="margin-bottom: 20px;"><?php include './nav.php'; ?></div>
 
 
 	<div class="page-section section mb-50">
@@ -32,8 +32,8 @@
 										<th class="pro-thumbnail">Image</th>
 										<th class="pro-title">Product</th>
 										<th class="pro-price">Price</th>
-										<th class="pro-quantity">Quantity</th>
-										<th class="pro-subtotal">Total</th>
+										<!-- <th class="pro-quantity">Quantity</th> -->
+										<!-- <th class="pro-subtotal">Total</th> -->
 										<th class="pro-remove">Remove</th>
 									</tr>
 								</thead>
@@ -46,12 +46,12 @@
 											<a href="#">Cillum dolore tortor nisl fermentum</a>
 										</td>
 										<td class="pro-price"><span>$29.00</span></td>
-										<td class="pro-quantity">
+										<!-- <td class="pro-quantity">
 											<div class="pro-qty">
 												<input type="text" value="1" />
 											</div>
-										</td>
-										<td class="pro-subtotal"><span>$29.00</span></td>
+										</td> -->
+										<!-- <td class="pro-subtotal"><span>$29.00</span></td> -->
 										<td class="pro-remove">
 											<a href="#"><i class="fa fa-trash-o"></i></a>
 										</td>
@@ -64,12 +64,12 @@
 											<a href="#">Auctor gravida pellentesque</a>
 										</td>
 										<td class="pro-price"><span>$30.00</span></td>
-										<td class="pro-quantity">
+										<!-- <td class="pro-quantity">
 											<div class="pro-qty">
 												<input type="text" value="2" />
 											</div>
 										</td>
-										<td class="pro-subtotal"><span>$60.00</span></td>
+										<td class="pro-subtotal"><span>$60.00</span></td> -->
 										<td class="pro-remove">
 											<a href="#"><i class="fa fa-trash-o"></i></a>
 										</td>
@@ -82,12 +82,12 @@
 											<a href="#">Condimentum posuere consectetur</a>
 										</td>
 										<td class="pro-price"><span>$25.00</span></td>
-										<td class="pro-quantity">
+										<!-- <td class="pro-quantity">
 											<div class="pro-qty">
 												<input type="text" value="1" />
 											</div>
 										</td>
-										<td class="pro-subtotal"><span>$25.00</span></td>
+										<td class="pro-subtotal"><span>$25.00</span></td> -->
 										<td class="pro-remove">
 											<a href="#"><i class="fa fa-trash-o"></i></a>
 										</td>
@@ -100,12 +100,12 @@
 											<a href="#">Habitasse dictumst elementum</a>
 										</td>
 										<td class="pro-price"><span>$11.00</span></td>
-										<td class="pro-quantity">
+										<!-- <td class="pro-quantity">
 											<div class="pro-qty">
 												<input type="text" value="1" />
 											</div>
 										</td>
-										<td class="pro-subtotal"><span>$11.00</span></td>
+										<td class="pro-subtotal"><span>$11.00</span></td> -->
 										<td class="pro-remove">
 											<a href="#"><i class="fa fa-trash-o"></i></a>
 										</td>
