@@ -1,4 +1,5 @@
-<?php $conn = oci_connect('click&collect', 'click12345', '//localhost/xe'); 
+<?php 
+$conn = oci_connect('click&collect', 'click12345', '//localhost/xe'); 
 if (!$conn) 
 {
    $m = oci_error();
